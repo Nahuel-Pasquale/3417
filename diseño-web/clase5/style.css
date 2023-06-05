@@ -1,0 +1,130 @@
+.container {
+}
+
+.text-span {
+}
+
+.caja {
+}
+
+.caja-mediana {
+}
+
+.caja-grande {
+}
+
+/* Selectores */
+#selectorId {
+}
+
+.selectorClase {
+}
+
+h5 {
+}
+
+/* unidades relativas */
+
+.small-font {
+}
+
+.em {
+  /* la caja con clase large-font tiene 10px de font-size por lo que el em en este ejmplo serian 20px(2em) */
+}
+
+.rem {
+  /* Este font-size son 32px porque el html por defecto tiene 16px de font-size */
+}
+
+.porcentaje {
+}
+
+.vh {
+}
+
+.vw {
+}
+
+.bg-color {
+}
+
+.bg-img {
+}
+
+.bg-repeat {
+}
+
+.bg-attach {
+}
+
+.bg-position {
+}
+
+.bg-size {
+}
+
+.color p {
+}
+
+/* Box shadow */
+.caja-shadow {
+}
+
+.offsetXY {
+}
+
+.blurRadius {
+}
+
+.spreadRadius {
+}
+
+.color-shadow {
+}
+
+.inset {
+}
+
+/* Tipografias */
+/*Las importaciones suelen ir arriba de todo en el archivo css , pero para fines prácticos lo mostramos acá */
+
+.font-family {
+}
+
+.font-weight {
+}
+
+.font-style {
+}
+
+.font-size {
+}
+
+.letter-spacing {
+}
+
+.word-spacing {
+}
+
+.line-height {
+}
+
+.text-align {
+}
+
+.text-transform {
+}
+
+.text-decoration {
+}
+
+/* Listas */
+
+.list-none {
+}
+
+.list-position {
+}
+
+.list-img {
+}
