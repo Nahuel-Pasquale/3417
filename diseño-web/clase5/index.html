@@ -25,19 +25,21 @@
     <!--------------------------- Selectores ----------------------------->
     <h2>Selector de ID:</h2>
     <div class="code">#selectorId {color: #8c54fb}</div>
-
-
-
-
+    <div class="container">
+        <p id="selectorId">
+            texto
+        </p>
+    </div>
 
     <hr class="hr" />
 
     <h2>Selector de clase:</h2>
     <div class="code">.selectorClase {color: #e11d48}</div>
-
-
-
-
+    <div class="container">
+        <p class="selectorClase">
+            texto
+        </p>
+    </div>
 
 
     <hr class="hr" />
@@ -45,7 +47,17 @@
     <h2>Etiqueta:</h2>
     <div class="code">h5{color: #e11d48}</div>
 
-
+    <div class="container">
+        <h5>
+            texto
+        </h5>
+        <!-- <h5>
+            texto
+        </h5>
+        <h6 class="selectorClase">
+            texto
+        </h6> -->
+    </div>
 
 
 
@@ -57,9 +69,11 @@
     <h3>Unidades absolutas</h3>
     <span class="text-span">👉 px (más usados)</span>
 
-
-
-
+    <div class="container">
+        <div class="caja">100px</div>
+        <div class="caja-mediana">200px</div>
+        <div class="caja-grande">300px</div>
+    </div>
 
     <span class="text-span">
         👉 Otras medidas no usadas: cm,mm, in, pt, pc
@@ -68,25 +82,46 @@
     <h3>Unidades relativas</h3>
     <span class="text-span">👉 em (más usados)</span>
 
+    <div class="caja-mediana small-font">
+        <p class="em">
+            Texto en em
+        </p>
+    </div>
+    <span class="text-span">👉 rem (más usados)</span>
 
+    <div class="caja-mediana">
+        <p class="rem">
+            Texto en rem
+        </p>
+    </div>
 
 
 
     <span class="text-span">👉"%" porcentaje (más usados)</span>
 
-
-
-
-
-    <span class="text-span">👉 vh(viewport height)</span>
-
-
+    <div class="caja-mediana">
+        <div class="porcentaje"></div>
+    </div>
 
 
 
     <span class="text-span">👉 vh(viewport height)</span>
 
+    <div class="container">
+        <div class="caja-mediana">
+            <div class="vh"></div>
+        </div>
+    </div>
 
+
+
+    <span class="text-span">👉 vw(viewport width)</span>
+
+    <div class="container">
+        <div class="caja-mediana">
+            <div class="vw"></div>
+        </div>
+    </div>
 
 
 
@@ -98,14 +133,15 @@
     <span class="text-span">🎨 background-color</span>
     <div class="code">background-color: crimson;</div>
 
+    <div class="caja bg-color"></div>
 
 
 
 
 
     <span class="text-span">🎨 background-img</span>
-    <div class="code">background-img: url('./img/imagen.png');</div>
-
+    <div class="code">background-image: url('./img/imagen.png');</div>
+    <div class="caja-grande bg-img"></div>
 
 
 
@@ -113,7 +149,7 @@
 
     <span class="text-span">🎨 background-repeat</span>
     <div class="code">background-repeat: repeat;</div>
-
+    <div class="caja-grande bg-repeat"></div>
 
 
 
@@ -121,7 +157,7 @@
 
     <span class="text-span">🎨 background-attachment</span>
     <div class="code">background-attachment: fixed;</div>
-
+    <div class="caja-grande bg-attachment"></div>
 
 
 
@@ -133,6 +169,8 @@
     <div class="code">
         background-position: center; || background-size:cover;
     </div>
+
+    <div class="caja-grande bg-position bg-size"></div>
 
 
 

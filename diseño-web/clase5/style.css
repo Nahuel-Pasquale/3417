@@ -1,129 +1,116 @@
-/* .container {
+.container{
+  background-color: #282828;
+  padding: 16px;
+  border-radius: 16px;
+  width: fit-content;
+  margin: 20px 0;
 }
 
-.text-span {
+.text-span{
+  color: #ff005c;
+  font-size: 20px;
+  margin: 20px 0;
 }
 
-.caja {
+.caja{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #6b7280;
+  margin: 20px 0;
 }
 
-.caja-mediana {
+.caja-mediana{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #6b7280;
+  margin: 20px 0;
 }
 
-.caja-grande {
-} */
-
-/* Selectores */
-/* #selectorId {
+.caja-grande{
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #6b7280;
+  margin: 20px 0;
 }
 
-.selectorClase {
+/* SELECTORES */
+#selectorId{
+  color: #8c54fb;
 }
 
-h5 {
-} */
-
-/* unidades relativas */
-
-/* .small-font {
+.selectorClase{
+  color: #e11d48;
 }
 
-.em {
-
+h5{
+  color: #e11d48;
 }
 
-.rem {
-} */
 
-/* .porcentaje {
+/* UNIDADES RELATIVAS */
+
+.small-font{
+  font-size: 10px;
 }
 
-.vh {
+.em{
+  font-size: 2em;
 }
 
-.vw {
+.rem{
+  font-size: 2rem;
 }
 
-.bg-color {
+.porcentaje{
+  width: 50%;
+  height: 50%;
+  background-color: #8c54fb;
+  border-radius: 1rem;
 }
 
-.bg-img {
+.vh{
+  height: 10vh;
+  background-color: #8c54fb;
+}
+.vw{
+  height: 100px;
+  width: 10vw;
+  background-color: #8c54fb;
 }
 
-.bg-repeat {
+.bg-color{
+  background-color: #dc143c;
+  /* background-color: crimson;
+  background-color: rgb(220, 20, 60); */
 }
 
-.bg-attach {
+.bg-img{
+  background-image: url('./img/bg-pattern.jpg');
+  /* background-position: center; */
+  background-size: cover;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
 }
-
-.bg-position {
+.bg-repeat{
+  background-image: url('./img/bg-repeat.png');
+  /* background-repeat: repeat; */
 }
-
-.bg-size {
+.bg-attachment{
+  background-image: url('./img/bg-pattern.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
-
-.color p {
-} */
-
-/* Box shadow */
-/* .caja-shadow {
+.bg-position{
+  background-image: url('./img/messi.webp');
+  background-position: center;
 }
-
-.offsetXY {
+.bg-size{
+  background-size: cover;
 }
-
-.blurRadius {
-}
-
-.spreadRadius {
-}
-
-.color-shadow {
-}
-
-.inset {
-} */
-
-/* Tipografias */
-/*Las importaciones suelen ir arriba de todo en el archivo css , pero para fines prácticos lo mostramos acá */
-
-/* .font-family {
-}
-
-.font-weight {
-}
-
-.font-style {
-}
-
-.font-size {
-}
-
-.letter-spacing {
-}
-
-.word-spacing {
-}
-
-.line-height {
-}
-
-.text-align {
-}
-
-.text-transform {
-}
-
-.text-decoration {
-} */
-
-/* Listas */
-
-/* .list-none {
-}
-
-.list-position {
-}
-
-.list-img {
-} */
