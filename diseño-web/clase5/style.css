@@ -36,7 +36,7 @@
   text-align: center;
   border-radius: 1rem;
   background-color: #6b7280;
-  margin: 20px 0;
+  margin: 0;
 }
 
 /* SELECTORES */
@@ -114,3 +114,104 @@ h5{
 .bg-size{
   background-size: cover;
 }
+
+
+.caja-shadow {
+  background-color: #8c54fb;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+.offsetXY{
+  box-shadow: 25px 25px; /* offset-x offset-y */ 
+}
+
+.blurRadius {
+  box-shadow: 25px 25px 5px;
+}
+
+.spreadRadius {
+  box-shadow: 25px 25px 5px 5px;
+}
+
+.no-inset {
+  box-shadow: 0px 0px 5px 5px #dc143c;
+}
+
+.inset {
+  box-shadow: inset 0px 0px 5px 5px #dc143c;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+.font-family {
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Cherry Bomb One', cursive;
+}
+
+.font-weight {
+  font-family: 'Cherry Bomb One', cursive;
+  font-weight: bold;
+}
+
+.font-style {
+  font-family: 'Cherry Bomb One', cursive;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.font-size {
+  font-family: 'Cherry Bomb One', cursive;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.letter-spacing{
+  letter-spacing: 10px;
+}
+
+.word-spacing{
+  word-spacing: 50px;
+}
+
+.line-height{
+  line-height: 50px;
+}
+
+.text-align{
+  text-align: justify;
+}
+
+.text-transform{
+  text-transform: uppercase;
+}
+
+.text-decoration{
+  text-decoration: underline;
+}
+
+.list-type{
+  /* list-style-type: none; */
+  list-style: none;
+}
+
+.list-img{
+  list-style-image: url('./img/messi-list-img.jpg');
+  list-style-position: inside;
+}
+
+.content{
+  background-color: black;
+}
+.caja-interior{
+  background-color: #e11d48;
+  border-radius: 10px;
+  border: 4px solid white;
+  margin: 50px;
+  padding: 50px;
+}
+
+
+
