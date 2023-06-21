@@ -1,4 +1,10 @@
 /* Estilos de la clase */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   background-color: #282828;
   padding: 16px;
@@ -15,12 +21,141 @@
 
 /* overflow */
 
+.overflow-box{
+  width: 150px;
+  height: 150px;
+  background-color: #8c54fb;
+  border-radius: 1rem;
+}
+
+.hidden{
+  overflow: hidden;
+}
+
+.scroll{
+  overflow: scroll;
+}
+
+.auto{
+  overflow: auto;
+}
+
+/* padding */
+
+.padding{
+  border-radius: 1rem;
+  background-color: #8c54fb;
+  padding: 10px 20px 30px 40px;
+
+  /* 
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px; 
+  */
+}
+
+
+/* Border */
+.border{
+  /* grosor tipo color */
+  border: 5px solid #8c54fb;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.dashed{
+  /* grosor tipo color */
+  border: 5px dashed #8c54fb;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.dotted{
+  border: 5px dotted #8c54fb;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.double{
+  border: 5px double #8c54fb;
+  padding: 5px;
+}
 
 /* Border radius */
-
+.radius{
+  padding: 80px;
+  background-color: #8c54fb;
+  border-radius: 1px 10px 50px 100px;
+}
 
 /* margin */
 
 
+.margin{
+  /* margin: 50px; */
+  margin: 10px 20px 30px 40px;
+
+  /* 
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px; 
+  */
+}
+
+.block{
+  border: 1px solid #8c54fb;
+  border-radius: 0.5px;
+  padding: 1rem;
+}
+
+.mb{
+  margin-bottom: 1rem;
+}
+
+.inline{
+  border: 1px solid #8c54fb;
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
 /* positions */
 
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: #8c54fb;
+  border-radius: 1rem;
+}
+
+.relative{
+  position: relative;
+  /* left: 200px; */
+}
+
+.absolute-container{
+  background-color: #282828;
+  padding: 16px;
+  border-radius: 1rem;
+  margin: 20px 0;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  right: 10px;
+}
+
+.sticky{
+  position: sticky;
+  top: 0;
+  right: 10px;
+}
