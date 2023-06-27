@@ -242,9 +242,58 @@ Los items tienen el mismo espacio a su alrededor */
 
 /* Grow */
 
+.grow-1 {
+  flex-grow: 2;
+}
+.grow-2 {
+  flex-grow: 3;
+}
+
 /* shrink */
+
+.contenedor-shrink{
+  max-width: 300px;
+}
+
+.shrink-1{
+  flex-shrink: 1;
+}
+.shrink-2{
+  flex-shrink: 2;
+}
+.shrink-3{
+  flex-shrink: 2;
+}
 
 /* basis */
 
+.self{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-height: 400px;
+}
+
+.basis-1 {
+  flex-basis: 330px;
+}
+.basis-2 {
+  flex-basis: 330px;
+}
+.basis-3 {
+  flex-basis: 330px;
+}
+
 /* align-self */
+
+.self-1 {
+  align-self: flex-start;
+}
+.self-2 {
+  align-self: flex-end;
+}
+.self-3 {
+  align-self: center;
+}
 
