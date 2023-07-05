@@ -1,0 +1,70 @@
+/* Estilos de la clase */
+
+.container {
+  background-color: #282828;
+  display: flex;
+  padding: 16px;
+  border-radius: 16px;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.text-span {
+  color: #ff005c;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* active */
+
+
+/* visited */
+
+
+/* link */
+
+
+/* focus */
+
+
+/* Cajas */
+
+
+/* first-child */
+
+
+/* last-child */
+
+
+/* first-of-type  */
+
+
+/* nth-child odd*/
+
+
+/* nth-child even */
+
+
+/* nth-child-number  */
+
+
+/* nth-child-n */
+
+
+/* nth-child-number-n */
+
+
+/* first-letter */
+
+
+/* first-line */
+
+
+/* before */
+
+
+/* after */
+
+
+/* placeholder */
+
