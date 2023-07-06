@@ -15,56 +15,179 @@
   margin: 20px 0;
 }
 
+.hover {
+  background-color: crimson;
+  padding: 10px;
+  border-radius: 1rem;
+  transition: all 0.5s ease;
+
+}
+
+.hover:hover {
+  background: #8c54fb;
+  transition: all 0.5s ease;
+}
+
 /* active */
+
+.active:active {
+  color: crimson;
+  transition: all 0.5s ease;
+}
 
 
 /* visited */
 
+.visited:visited {
+  color: #8c54fb;
+}
+
 
 /* link */
+
+.link:link {
+  color: crimson;
+}
+
+.second-link:link {
+  color: crimson;
+}
 
 
 /* focus */
 
+.focus-input {
+  padding: 20px 40px;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+}
+
+.focus-input:focus {
+  border: 3px solid green;
+}
+
 
 /* Cajas */
+
+.caja {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* first-child */
 
+.first .caja:first-child {
+  background: #8c54fb;
+}
+
+/* .caja:last-child {
+  background: #8c54fb;
+} */
+
 
 /* last-child */
 
+.last .caja:last-child {
+  background: #8c54fb;
+}
 
 /* first-of-type  */
 
+.fot .caja:first-of-type {
+  background: #8c54fb;
+}
 
 /* nth-child odd*/
+
+.odd .caja:nth-child(odd) {
+  background: #8c54fb;
+}
 
 
 /* nth-child even */
 
+.even .caja:nth-child(even) {
+  background: #8c54fb;
+}
+
 
 /* nth-child-number  */
 
+.number .caja:nth-child(3) {
+  background: #8c54fb;
+}
 
 /* nth-child-n */
 
-
-/* nth-child-number-n */
-
+.number-n .caja:nth-child(2n + 1) {
+  background: #8c54fb;
+}
 
 /* first-letter */
+
+.first-letter::first-letter{
+  color: crimson;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
 
 
 /* first-line */
 
+.first-line::first-line{
+  color: crimson;
+}
+
 
 /* before */
+
+.relative {
+  position: relative;
+}
+
+.before::before{
+  content: "";
+  position: absolute;
+  left: 15px;
+  bottom: 25px;
+  /* left: 0;
+  bottom: -2px; */
+  height: 2px;
+  width: 0;
+  background-color: #ff005c;
+  transition: width 0.3s ease;
+}
+
+.before:hover::before {
+  width: 170px;
+  /* width: 100%; */
+}
 
 
 /* after */
 
+.after::after{
+  content: "()";
+}
+
 
 /* placeholder */
+
+.input-placeholder {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #282828;
+}
+
+.input-placeholder::placeholder {
+  color: white;
+}
 
